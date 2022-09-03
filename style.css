@@ -1,0 +1,34 @@
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: rgb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+        border: 2px dashed black;
+        width: 350px;
+        height: 300px; 
+      }
+
+@keyframes rgb {
+    from{ box-shadow: 1px 1px 38px blue;}
+    to{ box-shadow: 1px 1px 38px yellow;}
+    from{ box-shadow: 1px 1px 38px red;}
+    to{ box-shadow: 1px 1px 38px green;}
+    from{ box-shadow: 1px 1px 38px rgb(0, 255, 255);}
+    to{ box-shadow: 1px 1px 38px rgb(255, 0, 136);}
+    from{ box-shadow: 1px 1px 38px rgba(255, 217, 0, 0.76);}
+    to{ box-shadow: 1px 1px 38px rgb(41, 0, 128);}
+    from{ box-shadow: 1px 1px 38px rgb(255, 111, 0);}
+    to{ box-shadow: 1px 1px 38px rgb(255, 0, 238);}
+    from{ box-shadow: 1px 1px 38px rgb(0, 255, 102);}
+    to{ box-shadow: 1px 1px 38px green;}
+    from{ box-shadow: 1px 1px 38px rgb(0, 255, 255);}
+    to{ box-shadow: 1px 1px 38px rgb(255, 0, 136);}
+    from{ box-shadow: 1px 1px 38px rgba(255, 217, 0, 0.76);}
+    to{ box-shadow: 1px 1px 38px rgb(41, 0, 128);}
+}
+h3{
+ font-size: 25px !important;   
+}
